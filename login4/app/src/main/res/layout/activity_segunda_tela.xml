@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/purple_700"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".SegundaTela">
+
+        <View
+            android:id="@+id/containerTop"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/background_view_top"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:layout_width="305dp"
+            android:layout_height="114dp"
+            android:layout_marginTop="230dp"
+            android:layout_marginBottom="395dp"
+            android:paddingLeft="6dp"
+            android:text="O tema é um desafio que ataca ainda 1 bilhão de pessoas no mundo, que infelizmente, impulsionada pela pandemia e alta da inflação da cesta básica se agravou em nosso país e em nossa cidade: a fome."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.15"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:layout_width="401dp"
+            android:layout_height="328dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginBottom="15dp"
+            android:paddingLeft="20dp"
+            android:text="PRINCIPAIS MOTIVOS\n
+            \nDa População:\n
+
+            \nEvidentemente a falta de alimentos não é a causa.Produzimos em excesso. No entanto, convivemos com um desperdício quase que insustentável de gêneros alimentícios
+            \nAumento no custo de manutenção dos veículos
+            \n
+            \n
+
+            \nDa Prefeitura:\n
+
+            \nO ncapacidade de solucionar o problema com o orçamento da assistência social
+            \nA Redução constante dos repasses federais no Fundo da Assistência Social, mesmo com o aumento da necessidade das pessoas
+            \nA Doações desordenadas diretamente pela população que causa transtornos no cotidiano da cidade, propiciando a ampliação de moradores nos centros atraídos pelos donativos "
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.385" />
+
+        <ImageView
+            android:id="@+id/icNavegar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="305dp"
+            android:layout_marginTop="660dp"
+            android:layout_marginEnd="57dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/ic_navegar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/icVoltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="57dp"
+            android:layout_marginTop="660dp"
+            android:layout_marginEnd="305dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/ic_voltar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logo"
+            app:layout_constraintBottom_toBottomOf="@id/containerTop"
+            app:layout_constraintEnd_toEndOf="@id/containerTop"
+            app:layout_constraintStart_toStartOf="@id/containerTop"
+            app:layout_constraintTop_toTopOf="@id/containerTop" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
